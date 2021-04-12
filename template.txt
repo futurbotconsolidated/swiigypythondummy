@@ -1,0 +1,12 @@
+Restaurant_names
+Restaurant_id
+Expected_time
+Promoted
+Category
+Location
+Ratings
+Cost_for_2
+Offers_if_any
+Veg
+Non-veg
+Healthy
