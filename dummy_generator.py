@@ -5,6 +5,21 @@ import numpy
 import pandas as pd
 import uuid
 
+import os
+
+def createFolder(directory):
+    try:
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+    except OSError:
+        print ('Error: Creating directory. ' +  directory)
+        
+
+
+createFolder('./single/')
+createFolder('./half_separate/')
+createFolder('./separate/')
+
 restuarants = []
 
 with open('template.txt', 'r') as filehandle:
